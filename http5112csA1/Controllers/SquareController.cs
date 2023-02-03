@@ -11,15 +11,18 @@ namespace http5112csA1.Controllers
     public class SquareController : ApiController
     {
         /// <summary>
-        /// It returns the square of the integer input {id}
+        /// The function lets us know the square of the integer input {id}
         /// </summary>
         /// <param name="id">the integer input</param>
-        /// <returns> the square of the integer input {id} </returns>
+        /// <returns> 
+        /// the square of the integer input {id} 
+        /// </returns>
         /// <example>
-        /// GET localhost/Square/2 -> 4
-        /// GET localhost/Square/-2 -> 4
-        /// GET localhost/Square/9 -> 81
+        /// GET: api/Square/2 -> 4
+        /// GET: api/Square/-2 -> 4
+        /// GET: api/Square/9 -> 81
         /// </example>
+        
         [HttpGet]
         public int Square(int id)
         {

@@ -11,16 +11,19 @@ namespace http5112csA1.Controllers
     {
 
         /// <summary>
-        /// Received the POST request by the path localhost/Greeting
+        /// Received the POST request and display "Hello World!"
         /// </summary>
         /// <returns> A string "Hello World!"</returns>
+        /// <example>
+        /// POST: api/Greeting -> "Hello World!"
+        /// </example>
         public string Post()
         {
             return "Hello World!";
         }
 
         /// <summary>
-        /// It returns the string “Greetings to {id} people!” where id is an integer value
+        /// The function returns the string “Greetings to {id} people!” where id is an integer value
         /// </summary>
         /// <param name="id">the integer input</param>
         /// <returns> string "Greetings to {id} people!"</returns>

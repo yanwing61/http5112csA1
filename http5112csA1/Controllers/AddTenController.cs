@@ -9,14 +9,18 @@ namespace http5112csA1.Controllers
 {
 
     /// <summary>
-    /// It returns 10 more than the integer input {id}
+    /// The function lets us know the result of 10 more than the integer input {id}
     /// </summary>
-    /// <param name="id">the integer input</param>
-    /// <returns> 10 more than the integer input {id} </returns>
+    /// <param name="id"> 
+    /// the integer input 
+    /// </param>
+    /// <returns> 
+    /// 10 more than the integer input {id} 
+    /// </returns>
     /// <example>
-    /// GET localhost/AddTen/21 -> 31
-    /// GET localhost/AddTen/0 -> 10
-    /// GET localhost/AddTen/-9 -> 1
+    /// GET: api/AddTen/21 -> 31
+    /// GET: api/AddTen/0 -> 10
+    /// GET: api/AddTen/-9 -> 1
     /// </example>
     public class AddTenController : ApiController
     {
